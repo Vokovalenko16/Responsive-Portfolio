@@ -3,10 +3,11 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: black;
+    margin: 0;
     background: url("https://static1.squarespace.com/static/55786cc8e4b04908a773f86e/t/58495048be6594d06da8f362/1481199691131/Smooth-White-Cement.jpg?format=1000w");
   }
   
-  }
+  
   * {
     box-sizing: border-box;
   }
@@ -216,57 +217,58 @@ body {
     border: 0 none;
   }
   
-  @media only screen and (max-width: 640px) {
-    #logo {
-      position: relative;
-      left: -40px;
-      width: 640px;
-      float:left;
-    }
-    nav {
-    position: relative;
-    left: -50px;
-    }
-    .main-section img {
-      height: 550px;
-      width: 440px;
-    }
-    .container {
-      width: 480px;
-      margin: 0 40px 0px 40px;
-    }
-  }
-  @media only screen and (max-width: 640px) {
-    #logo {
-      position: relative;
-      left: -40px;
-      width: 640px;
-      float:left;
-    }
-    nav {
-    position: relative;
-    left: -50px;
-    }
-    .main-section img {
-      height: 550px;
-      width: 440px;
-    }
-    .container {
-      width: 480px;
-      margin: 0 40px 0px 40px;
-    }
-  }
+
+  
   @media only screen and (max-width: 768px) {
+
     #logo {
-    
+      float:left;
     }
     nav {
-    
+   float: right;
     }
     .main-section img {
-      
+      height: 450px;
+      width: 380px;
     }
     .container {
-     
+      width: 660px;
+      margin: 0 40px 0px 40px;
     }
+    .work {
+      width: 240px;
+    }
+    .work img {
+      width: 240px;
+      height: auto;
+      float: left;
+
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    #logo {
+      position: relative;
+      left: -40px;
+      width: 640px;
+      float:left;
+    }
+    nav {
+   float: none;
+   text-align: center;
+    }
+    .main-section img {
+      height: 550px;
+      width: 440px;
+    }
+    .container {
+      width: 500px;
+      margin: 0 40px 0px 40px;
+    }
+    .work {
+      width: 400px;
+    }
+    .work img {
+      width: 400px;
+      height: auto;
+      float: left;
   }
