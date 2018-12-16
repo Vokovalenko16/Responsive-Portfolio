@@ -134,6 +134,16 @@ body {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
+
+  .main-section1 {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
   
   /* portfolio page */
   
@@ -217,9 +227,34 @@ body {
     border: 0 none;
   }
   
+  @media only screen and (max-width: 980px) {
+    .main-section1 {
+      float: left;
+      width: 100%;
+      max-width: 460px;
+      padding: 30px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
+  }
+  @media only screen and (min-width: 980px) {
+    .main-section1 {
+      float: left;
+      width: 100%;
+      max-width: 460px;
+      padding: 30px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
+  }
 
-  
   @media only screen and (max-width: 768px) {
+    .main-section1 {
+      width: 100%;
+      max-width: 700px;
+      margin-top: 30px;
+      padding: 20px;
+    }
 
     #logo {
       float:left;
@@ -246,6 +281,11 @@ body {
     }
   }
   @media only screen and (max-width: 640px) {
+    .main-section1 {
+      width: 100%;
+      max-width: 560px;
+      margin-top: 30px;
+    }
     #logo {
       position: relative;
       left: -40px;
@@ -271,4 +311,5 @@ body {
       width: 400px;
       height: auto;
       float: left;
+  }
   }
